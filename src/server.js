@@ -8,7 +8,6 @@ const server = async () => {
   });
 
   app.server.listen(port, "0.0.0.0", (err) => {
-    console.log(err)
     if (err) {
       app.server.log.error(`Fail to start server: ${err}`);
       process.exit(1);

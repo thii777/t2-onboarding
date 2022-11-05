@@ -8,7 +8,6 @@ class App {
   }
 
   register() {
-    // this.server.register(async (server) => server.route(healthCheck));
     appRegister(this.server);
   }
 }
