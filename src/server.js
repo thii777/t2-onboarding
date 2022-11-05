@@ -1,7 +1,7 @@
 const App = require("./app");
 
 const server = async () => {
-  const port = 3003;
+  const port = process.env.PORT || 3003;
 
   const app = new App({
     logger: true,
